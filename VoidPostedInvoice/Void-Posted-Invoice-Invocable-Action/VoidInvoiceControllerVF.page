@@ -1,0 +1,9 @@
+<!-- This a Custom Visual force attached to the new Custom Action Button on the Invoice. This VF page will internally render the screen flow that calls our invocable action -->
+<apex:page standardcontroller="Invoice" extensions="VoidInvoiceController" showQuickActionVfHeader="false" lightningStylesheets="True">
+    <h1> Void Invoice Invokable Action Sample Flow </h1>
+    <!-- Invoke the flow and redirect back the invoice page if the flow is successfully executed -->
+    <flow:interview name="Void_Posted_Invoice_Invocable_Action" finishLocation="{!Page}">
+       <!-- Get's the invoice from the getInvoiceId() and set's it on the flow input variable.
+        <apex:param name="InvoiceId" value="{!InvoiceId}" />
+    </flow:interview>
+</apex:page>
