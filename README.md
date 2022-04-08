@@ -4,5 +4,5 @@ This repository is meant to contain simple examples of how the Subscription Mana
 ## Example 1 Credit Memo Events Consumption
 This code [here](./Credit-Memo-Events-Consumption) snippet shows how Salesforce Credit Memo Platform events can be consumed by custom integrations.
 
-## Example 2 Credit-Memo-Events-Consumption
+## Example 2 Void Posted Invoice Invocable Action - UI Action Button
 This code [here](./VoidPostedInvoice/Void-Posted-Invoice-Invocable-Action) walks through how an example of the Void Posted Invoice Invocable Action with UI Action Button
