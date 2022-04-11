@@ -9,4 +9,4 @@ This code [here](./VoidPostedInvoice/Void-Posted-Invoice-Invocable-Action) walks
 
 # License
 
-This project is available under the [BSD-3 license](LICENMSE.md)
+This project is available under the [BSD-3 license](LICENSE.md)
