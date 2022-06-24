@@ -5,7 +5,7 @@
 *
 * @author behram.buhariwala
 */
-public class VoidInvoiceController {
+public with sharing class VoidInvoiceController {
 
     private final Invoice invoice;
 
